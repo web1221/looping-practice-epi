@@ -1,0 +1,14 @@
+$(document).ready(function() {
+  $('#blanks form').submit(function(event){
+    event.preventDefault();
+
+    var sentenceInput= $('input#sentence').val();
+    var words = sentenceInput.split(' ');
+    var newArray = words;
+    newArray.map(function(array){
+      if 
+    });
+
+
+  });
+});
